@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300&family=Poppins:wght@200;400;600;700;800&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300&family=Poppins:wght@200;400;600;700;800&display=swap');
 
 * {
     margin: 0;
@@ -99,4 +99,45 @@ header p {
 
 .blue {
     border-top: 4px solid #549EF2;
+}
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    section.container {
+        width: 311px;
+        margin: 85px auto 78px;
+    }
+
+
+    header h3:first-child {
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 275;
+        line-height: normal;
+        letter-spacing: 0.167px;
+    }
+
+    header h1:nth-child(2) {
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0.167px;
+    }
+
+    header p {
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0.104px;
+        max-width: 311px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
 }
